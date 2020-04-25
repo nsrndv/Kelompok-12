@@ -3,7 +3,7 @@ def closing(*penutup):
     for kalimat in penutup:
         print("Terimakasih Telah Menggunakan Layanan Kami Untuk ",kalimat)
 
-
+	
 print('Selamat Datang di Bank Kelompok 12')
 nama = input('Nama Anda adalah ')
 print('\n')
