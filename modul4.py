@@ -11,7 +11,7 @@ a = 1
 n = 3
 saldo = 5000000
 while (a < 4):
-	pin = int(input('Anda memiliki 3X kesempatan \nSilakan input 6-pin Anda untuk meneruskan ke menu : '))
+	pin = int(input('Anda memiliki 3 kali kesempatan \nSilakan input 6-pin Anda untuk meneruskan ke menu : '))
 	a = a + 1
 	n = n - 1
 	if (pin == 112233):
