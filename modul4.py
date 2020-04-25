@@ -20,7 +20,7 @@ while (a < 4):
 		act1 = int(input('(12). Transfer \n(13). Tarik Tunai \nSilakan memasukan kode dengan tepat : ')) 
 		if (act1 == 12):
 			norek = int(input('\nMasukan nomor rekening tujuan : '))
-			out1 = int(input('Maksimal pengiriman Rp 4.000.000 \nJumlah yang akan dikirim(ketik tanpa tanda titik atau koma)  :'))
+			out1 = int(input('Maksimal pengiriman Rp 4.000.000 \nJumlah yang akan dikirim(ketik tanpa tanda titik atau koma)  : '))
 			sisa = saldo - out1
 			print('Anda berhasil mengirim ke rekening ',norek,' dengan jumlah dana ',out1)
 			print('Maka sisa saldo Anda adalah ',sisa, 'rupiah')
